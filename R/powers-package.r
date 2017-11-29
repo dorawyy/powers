@@ -9,4 +9,4 @@
 #' @note This package isn't actually meant to be serious. It's just for
 #' teaching purposes.
 #' @docType package
-NULL
+"_PACKAGE"

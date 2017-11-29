@@ -42,3 +42,17 @@ reciprocal(1:10, plot_it=TRUE)
 ```
 
 Wow!!!
+
+
+-----------
+
+Updated by Yingying:
+
+Several new functions added! Now, Box Cox transformation and Box Cox inverse are also supported!!
+
+```{r}
+invBoxCox(1:10)
+boxCox(1:10)
+boxCox2(10,1,4)
+```
+

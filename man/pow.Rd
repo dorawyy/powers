@@ -4,7 +4,7 @@
 \alias{pow}
 \title{Generic Power Function}
 \usage{
-pow(x, a, plot_it)
+pow(x, a, plot_it = FALSE)
 }
 \arguments{
 \item{x}{Vector to raise to some power.}
@@ -20,4 +20,10 @@ The vector \code{x}, raised to the power of \code{a}.
 This function raises a vector to any power. I'm making it internal,
 by not \code{export}ing, because I don't want users to use it.
 Why not? Because I said so!
+}
+\details{
+Yingying made some changes here. Added a default value to the
+parameter \code{plot_it=FALSE}, as the generic power function
+is frequently used in Box Cox Transformation functions and
+Box Cox Inverse functions
 }
