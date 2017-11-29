@@ -53,4 +53,6 @@ powers::boxCox(1:10)
 
 Use the internal `pow` function as the machinery for the front-end functions such as `square`, `cube`, and `reciprocal`. 
 
+![Vignette.jpg](Vignette.jpg)
+
 Newly added Box Cox transformation/inverse related functions are: `boxCox`, `boxCox2`, and `invBoxCox` 
